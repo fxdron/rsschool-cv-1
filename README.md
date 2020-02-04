@@ -1,0 +1,1 @@
+[Link to CV](https://adelinyshka.github.io/rsschool-cv/cv)
