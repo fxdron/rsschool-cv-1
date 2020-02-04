@@ -1,10 +1,10 @@
 # Dubinnikova Adel Ravilevna
 
-#### Junior Developer
+### Junior Developer
 
 ## Contact Info
-87 921 744 66 11
-adelinyshka@gmail.com
+**8 921 744 66 11**
+**adelinyshka@gmail.com**
 
 ## Skills
 * HTML/pug
@@ -26,7 +26,7 @@ Site address | Explanation
 https://vremyastr.ru | site for network of beauty salons
 https://posutochno-peterburg.ru | site for chain of apartments
 
-## Code examples
+## Code example
 ```
 const sumDigits = (num) => {
   const str = String(num);
