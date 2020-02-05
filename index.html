@@ -32,53 +32,63 @@
 	<li>adelinyshka@gmail.com</li>
 </ul>
 
-<h2 class="skills" id="skills">Skills</h2>
-<ul class="skill-list">
-	<li>HTML/pug</li>
-	<li>CSS/Sass/Less</li>
-	<li>Javascript</li>
-	<li>PHP</li>
-	<li>Bootstrap</li>
-	<li>Git</li>
-	<li>Figma</li>
-	<li>Photoshop</li>
-	<li>twig/tpl</li>
-	<li>webpack/grunt</li>
-	<li>JQuery</li>
-</ul>
 
-<h2 class="experience-text" id="experience">Experience</h2>
-<p>Here is the list of my last projects</p>
-<table>
-	<tr>
-		<th>Site address</th>
-		<th>Explanation</th>
-	</tr>
-	<tr>
-		<td><a href="https://posutochno-peterburg.ru"
-		       title='site for chain of apartments'
-		       target="_blank">posutochno-peterburg.ru</a></td>
-		<td>site for chain of apartments</td>
 
-	</tr>
-	<tr>
-		<th><a href="https://vremyastr.ru"
-		       title="site for network of beauty salons"
-		       target="_blank">vremyastr.ru</a></th>
-		<td>site for network of beauty salons</td>
-	</tr>
-</table>
+	<h2 class="skills" id="skills">Skills</h2>
+	<ul class="skill-list">
+		<li>HTML/pug</li>
+		<li>CSS/Sass/Less</li>
+		<li>Javascript</li>
+		<li>PHP</li>
+		<li>Bootstrap</li>
+		<li>Git</li>
+		<li>Figma</li>
+		<li>Photoshop</li>
+		<li>twig/tpl</li>
+		<li>webpack/grunt</li>
+		<li>JQuery</li>
+	</ul>
 
-<h2 class="code-example" id="code">Code example</h2>
+<div class="container-for-parts">
+<section>
+	<h2 class="experience-text" id="experience">Experience</h2>
+	<p>Here is the list of my last projects</p>
 
-<pre>
+	<table>
+		<tr>
+			<th>Site address</th>
+			<th>Explanation</th>
+		</tr>
+		<tr>
+			<td><a class="site-link"
+			       href="https://posutochno-peterburg.ru"
+			       title='site for chain of apartments'
+			       target="_blank">posutochno-peterburg.ru</a></td>
+			<td>site for chain of apartments</td>
+
+		</tr>
+		<tr>
+			<th><a class="site-link"
+			       href="https://vremyastr.ru"
+			       title="site for network of beauty salons"
+			       target="_blank">vremyastr.ru</a></th>
+			<td>site for network of beauty salons</td>
+		</tr>
+	</table>
+</section>
+
+
+<section>
+	<h2 class="code-example" id="code">Code example</h2>
+
+	<pre>
 	<code>
-		const sumDigits = (num) => {
-  const str = String(num);
-  let result = 0;
-  for (let i = 0; i < length(str); i += 1) {
-    result += Number(str[i]);
-  }
+const sumDigits = (num) => {
+	const str = String(num);
+	let result = 0;
+	for (let i = 0; i < length(str); i += 1) {
+		result += Number(str[i]);
+	  }
 
   return result;
 };
@@ -94,6 +104,9 @@ const addDigits = (num) => {
 	</code>
 </pre>
 
+</section>
+</div>
+
 <h2 class="education" id="education">Education</h2>
 <p>I'm self-studying. I have University Degree
 	but not in IT area.</p>
@@ -105,6 +118,8 @@ const addDigits = (num) => {
 <p>I would like to be FullStack Developer as soon
 	as possible, so I'm learning,
 	coding and improve my skills every day.</p>
+
+<footer>Санкт-Петербург 2020</footer>
 
 </body>
 </html>
