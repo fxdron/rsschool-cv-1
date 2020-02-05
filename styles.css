@@ -1,47 +1,49 @@
 body {
 	max-width: 1024px;
 	margin: 0 auto;
+	font-size: 16px;
 }
 
-.skill-list, .navigation {
+.skill-list,
+.navigation,
+.contact-list {
 	list-style-type: none;
+	padding-left: 0;
 }
 
 .name {
 	color: #0B4C3D;
 }
 
-.contacts {
-  color: #00755F;
-}
-
-
-.skills {
+.contacts,
+.skills,
+.experience-text,
+.code-example,
+.education,
+.english,
+.summary {
 	color: #18925D;
 }
 
-.experience-text {
-  color:  #684F4B;
-}
-
-.code-example {
-  color: #4C3732;
-}
-
-.education {
-  color: #422E27;
-}
-
-.english {
-  color: #ffffff;
-}
-
-.summary {
-  color: #ffffff;
-}
-
 .navigation {
-	display: inline-block;
-	color: #000000;
+  padding: 10px;
+	color: #ffffff;
 	background-color: #18925D;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.5rem;
+}
+
+.navigation li {
+	display: inline-block;
+}
+
+.navigation li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.navigation li a:hover {
+	text-decoration: underline;
 }
