@@ -1,3 +1,47 @@
-ul.skill-list {
+body {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.skill-list, .navigation {
 	list-style-type: none;
+}
+
+.name {
+	color: #0B4C3D;
+}
+
+.contacts {
+  color: #00755F;
+}
+
+
+.skills {
+	color: #18925D;
+}
+
+.experience-text {
+  color:  #684F4B;
+}
+
+.code-example {
+  color: #4C3732;
+}
+
+.education {
+  color: #422E27;
+}
+
+.english {
+  color: #ffffff;
+}
+
+.summary {
+  color: #ffffff;
+}
+
+.navigation {
+	display: inline-block;
+	color: #000000;
+	background-color: #18925D;
 }
