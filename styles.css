@@ -1,0 +1,98 @@
+body {
+	max-width: 1024px;
+	margin: 0 auto;
+	font-size: 16px;
+}
+
+.contacts, .contact-list {
+	text-align: center;
+}
+
+.skill-list,
+.navigation,
+.contact-list {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.name {
+	color: #0B4C3D;
+	margin-bottom: 0;
+}
+
+h3 {
+	margin-top: 0;
+}
+
+.contacts,
+.skills,
+.experience-text,
+.code-example,
+.education,
+.english,
+.summary {
+	color: #18925D;
+}
+
+.navigation {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+  padding: 10px;
+	color: #ffffff;
+	background-color: #18925D;
+	font-size: 1.3rem;
+}
+
+.navigation li {
+	display: inline-block;
+}
+
+.navigation li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.navigation li a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 100px;
+	background-color: #18925D;
+	color: #ffffff;
+	text-align: center;
+	font-size: 1.3rem;
+}
+
+table tr {
+	text-align: left;
+
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table td, table th {
+	padding: 10px 20px 10px 0;
+	border-bottom: 1px solid #0B4C3D;
+}
+
+.site-link {
+	color: #0B4C3D;
+	font-weight: bold;
+
+}
+
+.site-link:hover {
+	color: #072920;
+}
+
+.container-for-parts {
+	display: flex;
+	justify-content: space-between;
+}
