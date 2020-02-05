@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+	      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="styles.css">
+	<title>CV</title>
+</head>
+<body>
+<header>
+	<nav>
+		<ul>
+			<li><a href="#contact">Contact Info</a></li>
+			<li><a href="#skills">Skills</a></li>
+			<li><a href="#experience">Experience</a></li>
+			<li><a href="#code">Code example</a></li>
+			<li><a href="#education">Education</a></li>
+			<li><a href="#english">English</a></li>
+			<li><a href="#summary">Summary</a></li>
+			<li></li>
+		</ul>
+	</nav>
+</header>
+<h1>Dubinnikova Adel Ravilevna</h1>
+<h3>Junior Developer</h3>
+
+<h2 id="contact">Contact Info</h2>
+<ul>
+	<li>8 921 744 66 11</li>
+	<li>adelinyshka@gmail.com</li>
+</ul>
+
+<h2 id="skills">Skills</h2>
+<ul class="skill-list">
+	<li>HTML/pug</li>
+	<li>CSS/Sass/Less</li>
+	<li>Javascript</li>
+	<li>PHP</li>
+	<li>Bootstrap</li>
+	<li>Git</li>
+	<li>Figma</li>
+	<li>Photoshop</li>
+	<li>twig/tpl</li>
+	<li>webpack/grunt</li>
+	<li>JQuery</li>
+</ul>
+
+<h2 id="experience">Experience</h2>
+<p>Here is the list of my last projects</p>
+<table>
+	<tr>
+		<th>Site address</th>
+		<th>Explanation</th>
+	</tr>
+	<tr>
+		<td><a href="https://posutochno-peterburg.ru"
+		       title='site for chain of apartments'
+		       target="_blank">posutochno-peterburg.ru</a></td>
+		<td>site for chain of apartments</td>
+
+	</tr>
+	<tr>
+		<th><a href="https://vremyastr.ru"
+		       title="site for network of beauty salons"
+		       target="_blank">vremyastr.ru</a></th>
+		<td>site for network of beauty salons</td>
+	</tr>
+</table>
+
+<h2 id="code">Code example</h2>
+
+<pre>
+	<code>
+		const sumDigits = (num) => {
+  const str = String(num);
+  let result = 0;
+  for (let i = 0; i < length(str); i += 1) {
+    result += Number(str[i]);
+  }
+
+  return result;
+};
+
+const addDigits = (num) => {
+  let result = num;
+  while (result >= 10) {
+    result = sumDigits(result);
+  }
+
+  return result;
+};
+	</code>
+</pre>
+
+<h2 id="education">Education</h2>
+<p>I'm self-studying. I have University Degree
+	but not in IT area.</p>
+
+<h2>English</h2>
+<p>My level is B2.</p>
+
+<h2 id="summary">Summary</h2>
+<p>I would like to be FullStack Developer as soon
+	as possible, so I'm learning,
+	coding and improve my skills every day.</p>
+
+</body>
+</html>
