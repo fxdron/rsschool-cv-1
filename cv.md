@@ -12,7 +12,6 @@
 * Javascript
 * PHP
 * Bootstrap
-* Git
 * Figma
 * Photoshop
 * twig/tpl (PHP templates)

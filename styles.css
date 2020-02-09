@@ -4,24 +4,21 @@ body {
 	font-size: 16px;
 }
 
-.contacts, .contact-list {
-	text-align: center;
-}
-
 .skill-list,
 .navigation,
 .contact-list {
-	padding-left: 0;
 	list-style-type: none;
+	padding-left: 0;
 }
 
 .name {
-	color: #0B4C3D;
 	margin-bottom: 0;
+	color: #0B4C3D;
 }
 
 h3 {
 	margin-top: 0;
+	color: #0B4C3D;
 }
 
 .contacts,
@@ -39,9 +36,9 @@ h3 {
 	justify-content: space-between;
 	width: 100%;
   padding: 10px;
+	font-size: 1.3rem;
 	color: #ffffff;
 	background-color: #18925D;
-	font-size: 1.3rem;
 }
 
 .navigation li {
@@ -62,15 +59,14 @@ footer {
 	justify-content: center;
 	flex-direction: column;
 	height: 100px;
-	background-color: #18925D;
 	color: #ffffff;
 	text-align: center;
 	font-size: 1.3rem;
+	background-color: #18925D;
 }
 
 table tr {
 	text-align: left;
-
 }
 
 table {
@@ -85,7 +81,6 @@ table td, table th {
 .site-link {
 	color: #0B4C3D;
 	font-weight: bold;
-
 }
 
 .site-link:hover {
@@ -95,4 +90,30 @@ table td, table th {
 .container-for-parts {
 	display: flex;
 	justify-content: space-between;
+}
+
+.img-block {
+	display: flex;
+	justify-content: center;
+}
+
+.img-styles {
+	position: relative;
+	height: 150px;
+	width: 150px;
+	text-align: center;
+	border-radius: 50%;
+	object-fit:contain;
+	background: url("my_img.jpg") center 10% no-repeat;
+	background-size: cover;
+}
+
+.img-styles span {
+	position: absolute;
+	top: -11px;
+	left: -10px;
+	z-index: -1;
+	padding: 85px;
+	border-radius: 100%;
+	background: #18925D;
 }
