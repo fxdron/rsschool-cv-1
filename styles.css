@@ -12,23 +12,13 @@ body {
 }
 
 .name {
-<<<<<<< HEAD
 	margin-bottom: 0;
 	color: #0B4C3D;
 }
 
 h3 {
 	margin-top: 0;
-||||||| 1e6c078... fix: add footer, change styles
 	color: #0B4C3D;
-	margin-bottom: 0;
-}
-
-h3 {
-	margin-top: 0;
-=======
-	color: #0B4C3D;
->>>>>>> parent of 1e6c078... fix: add footer, change styles
 }
 
 .contacts,
@@ -42,21 +32,13 @@ h3 {
 }
 
 .navigation {
-  padding: 10px;
-	color: #ffffff;
-<<<<<<< HEAD
-	font-size: 1.3rem;
-	background-color: #18925D;
-||||||| 1e6c078... fix: add footer, change styles
-	background-color: #18925D;
-	font-size: 1.3rem;
-=======
-	background-color: #18925D;
-	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	font-size: 1.5rem;
->>>>>>> parent of 1e6c078... fix: add footer, change styles
+	width: 100%;
+  padding: 10px;
+	font-size: 1.3rem;
+	color: #ffffff;
+	background-color: #18925D;
 }
 
 .navigation li {
@@ -70,7 +52,6 @@ h3 {
 
 .navigation li a:hover {
 	text-decoration: underline;
-<<<<<<< HEAD
 }
 
 footer {
@@ -86,7 +67,6 @@ footer {
 
 table tr {
 	text-align: left;
-
 }
 
 table {
@@ -101,7 +81,6 @@ table td, table th {
 .site-link {
 	color: #0B4C3D;
 	font-weight: bold;
-
 }
 
 .site-link:hover {
@@ -137,47 +116,4 @@ table td, table th {
 	padding: 85px;
 	border-radius: 100%;
 	background: #18925D;
-||||||| 1e6c078... fix: add footer, change styles
-}
-
-footer {
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	height: 100px;
-	background-color: #18925D;
-	color: #ffffff;
-	text-align: center;
-	font-size: 1.3rem;
-}
-
-table tr {
-	text-align: left;
-
-}
-
-table {
-	border-collapse: collapse;
-}
-
-table td, table th {
-	padding: 10px 20px 10px 0;
-	border-bottom: 1px solid #0B4C3D;
-}
-
-.site-link {
-	color: #0B4C3D;
-	font-weight: bold;
-
-}
-
-.site-link:hover {
-	color: #072920;
-}
-
-.container-for-parts {
-	display: flex;
-	justify-content: space-between;
-=======
->>>>>>> parent of 1e6c078... fix: add footer, change styles
 }
